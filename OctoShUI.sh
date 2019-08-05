@@ -199,7 +199,9 @@ while ! read -rst1 -n1 K; do
     GetData
 done
 
-#exec "$Script" --no-clear
+[[ $Args =~ '--daemon' ]] && { 
+    exec "$Script" --no-clear;
+}
 
 exit
 
