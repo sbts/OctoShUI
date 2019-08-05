@@ -21,7 +21,7 @@
 
 
 Script="$0"
-MaxLoops=10
+MaxLoops=60
 
 Dir='/tmp/octoprint_statFS'
 
