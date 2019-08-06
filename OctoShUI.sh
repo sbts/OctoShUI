@@ -200,7 +200,7 @@ while ! read -rst1 -n1 K; do
 done
 
 [[ $Args =~ '--daemon' ]] && { 
-    exec "$Script" --no-clear;
+    exec "$Script" --no-clear --daemon;
 }
 
 exit
